@@ -1,8 +1,12 @@
 # Software_Security
 Artemis Financial was the client for this project. The company wanted its software application to be more secure because it handled sensitive financial data. The main problem was that the system needed stronger protection for customer information during transmission and better ways to verify that data had not been changed or tampered with.
+
 I believe I did well identifying weaknesses in the application and selecting practical solutions to fix them. I improved the system by replacing insecure HTTP communication with HTTPS and by adding SHA-256 hashing to help verify data integrity. Secure coding is important because it reduces the risk of cyberattacks, protects private information, and helps prevent expensive security incidents. Strong software security also benefits a company by building customer trust and protecting its reputation.
 The most helpful part of the vulnerability assessment was seeing how different security tools and practices work together to protect an application. It was also challenging at times to determine which vulnerabilities were the highest priority and which solutions would be the most effective.
+
 I increased layers of security by using HTTPS for encrypted communication, implementing TLS certificates for authentication, and applying SHA-256 hashing to detect unauthorized data changes. I also used dependency-check tools to review third-party libraries for known vulnerabilities. In the future, I would continue using automated scanning tools, static code analysis, and industry security frameworks such as OWASP to assess risks and decide on the best mitigation strategies.
+
 I made sure the software remained functional and secure by testing the application after making changes and confirming that it ran without errors. I also checked that the secure connection worked correctly in a browser. After refactoring the code, I performed additional scans and testing to make sure no new vulnerabilities had been introduced.
 Some helpful resources and tools from this project included OWASP secure coding recommendations, dependency-check scanning tools, and industry standards for encryption and hashing. I also used coding practices such as proper exception handling, limiting exposure of sensitive information, and organizing code into separate responsibilities.
+
 For future employers, I could use this assignment as an example of my ability to analyze software vulnerabilities, apply secure coding practices, improve an existing application, and test software to confirm both functionality and security.
